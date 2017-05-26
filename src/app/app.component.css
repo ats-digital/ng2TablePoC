@@ -1,0 +1,9 @@
+.table , th, td{
+  color:red;
+
+  border: 1px solid black;
+}
+:host /deep/ ng2-smart-table tbody > tr > td:first-child {
+  text-align: left;
+  background-color:red;
+}
